@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onMouseClicked="#openBrowser" prefHeight="140.0" prefWidth="500.0" style="-fx-border-color: #000000; -fx-border-width: 1px;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.gondr.views.BookItemController">
+   <children>
+      <Label fx:id="lblTitle" layoutX="16.0" layoutY="14.0" prefHeight="31.0" prefWidth="474.0" text="제목" textFill="#802901" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="Arita-dotum(TTF)-Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDesc" alignment="TOP_LEFT" layoutX="19.0" layoutY="45.0" prefHeight="83.0" prefWidth="465.0" text="내용" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="17.0" />
+   </children>
+</AnchorPane>

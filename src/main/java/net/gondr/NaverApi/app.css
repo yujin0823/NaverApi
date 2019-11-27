@@ -1,0 +1,169 @@
+#loginPane, #registerPane {
+	-fx-background-color: #fff;
+	-fx-background-image: url(/net/gondr/img/Page.jpg);
+	-fx-background-size: cover;
+}
+
+#loginLabel, #registerTitle {
+	-fx-text-fill: #fff;
+	/*-fx-effect: dropshadow(gaussian, #ffffff, 5, 0.1, 0, 0);*/
+	/* 블루어 효과, 색상, 범위, 흩어짐, x, y */
+}
+
+.MainLayout {
+	-fx-background-image: url(/net/gondr/img/Page6.jpg);
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.loginBtn {
+	
+}
+
+.loginBtn2 {
+	
+}
+
+#registerForm {
+	-fx-background-color: rgba(230, 230, 230, 0.5);
+	-fx-background-radius: 20px;
+}
+
+.btn {
+	-fx-background-radius: 5px;
+	-fx-border-radius: 5px;
+	-fx-text-fill:#fff;
+}
+
+.btn-success {
+	-fx-background-color: #007bff;
+	-fx-border-color:#007bff;
+}
+
+.btn-success:hover {
+	-fx-background-color: #0069d9;
+	-fx-border-color: #0062cc;
+}
+
+.btn-danger {
+	-fx-background-color:#dc3545;
+	-fx-border-color:#dc3545;
+}
+
+.btn-danger:hover {
+	-fx-background-color:#c82333;
+	-fx-border-color:#bd2130;
+}
+
+.active {
+	-fx-background-color : rgba(0, 123, 255, 0.5);
+}
+
+.newsImg {
+	-fx-background-image: url("/net/gondr/img/news.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
+
+.newsbtn {
+	-fx-background-color: rgb(27, 0, 117);
+	-fx-cursor: pointer;
+}
+
+.bookImg {
+	-fx-background-image: url("/net/gondr/img/book2.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
+
+.bookSearch {
+	-fx-background-color: rgba(0, 0, 0, 0);
+	-fx-border-color:  rgba(0,0,0,0)  rgba(0,0,0,0) rgb(235, 115, 147)  rgba(0,0,0,0);
+	-fx-border-width: 5px;
+	-fx-border-style: none;
+	-fx-text-fill: #ffffff;
+}
+
+.bookbtn {
+	-fx-background-color: rgb(235, 115, 147);
+	-fx-cursor: pointer;
+}
+
+.mimg {
+	-fx-background-image: url("/net/gondr/img/images.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
+
+.mSearch {
+	-fx-background-color: rgba(0, 0, 0, 0);
+	-fx-border-color: rgb(161,116,69);
+	-fx-border-width: 2px;
+}
+
+.mbtn {
+	-fx-background-color: #f6dde2;
+	-fx-cursor: pointer;
+}
+
+.Movieimg {
+	-fx-background-image: url("/net/gondr/img/cgv.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
+
+.MovieSearch {
+	-fx-background-color: rgba(0, 0, 0, 0);
+	-fx-border-color:  rgba(0,0,0,0)  rgba(0,0,0,0) rgb(88,57,34)  rgba(0,0,0,0);
+	-fx-border-width: 5px;
+	-fx-border-style: none;
+	-fx-text-fill: #ffffff;
+}
+
+.MovieBtn {
+	-fx-background-color: #9e6340;
+	-fx-cursor: pointer;
+}
+
+.areaimg {
+	-fx-background-image: url("/net/gondr/img/page.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
+
+.areaSearch {
+	-fx-border-color:  rgba(0,0,0,0)  rgba(0,0,0,0) rgb(222,221,244)  rgba(0,0,0,0);
+	-fx-border-width: 5px;
+	-fx-text-fill: #ffffff;
+	-fx-background-color: rgba(0, 0, 0, 0);
+}
+
+.areabtn {
+	-fx-background-color: rgb(241,227,247);
+	-fx-cursor: pointer;
+}
+
+.shopimg {
+	-fx-background-image: url("/net/gondr/img/show.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
+
+.shopSearch {
+	-fx-background-color: rgba(0, 0, 0, 0);
+	-fx-border-color:  rgba(0,0,0,0)  rgba(0,0,0,0) rgb(254,192,157)  rgba(0,0,0,0);
+	-fx-border-width: 5px;
+	-fx-border-style: none;
+	-fx-text-fill: #ffffff;
+}
+
+.shopbtn {
+	-fx-background-color: #bca3bc;
+	-fx-cursor: pointer;
+}
+
+.DustImg {
+	-fx-background-image: url("/net/gondr/img/page7.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: cover;
+}
